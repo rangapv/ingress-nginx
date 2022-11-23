@@ -10,7 +10,7 @@ metadata:
     service.beta.kubernetes.io/aws-load-balancer-backend-protocol: "http"
 spec:
   type: LoadBalancer
-  allocateLoadBalancerNodePorts: false
+    #allocateLoadBalancerNodePorts: false
   ports:
   - port: 80
     targetPort: 80
