@@ -26,6 +26,6 @@ elif [[ -f "$k" ]] && (echo "$k" |  grep ".yaml" ) || (echo "$k" | grep ".yml")
 done
 }
 
-func /home/ubuntu/uping/nginx-ingress:2.4.1/*
+func ./*
 echo "the Total file applied are  $gcount"
 echo "the Total Directory traversed are $count"
