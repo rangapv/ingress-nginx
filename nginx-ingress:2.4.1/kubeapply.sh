@@ -28,6 +28,7 @@ done
 
 if [[ ($master -eq 1) || ($node -eq 1) ]]
 then
+g2=`kubectl apply -f https://raw.githubusercontent.com/rangapv/ingress-nginx/master/nginx-ingress%3A2.4.1/common/ns-and-sa.yaml`
 func ./*
 echo "the Total file applied are  $gcount"
 echo "the Total Directory traversed are $count"
