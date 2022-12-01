@@ -15,6 +15,3 @@ spec:
             name: web1-service
             port:
               number: 80
-            name: web1-service
-            port:
-              number: 443 
